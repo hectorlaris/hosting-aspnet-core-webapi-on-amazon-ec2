@@ -3,31 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFE3137B-498C-4969-A65C-848CB22B61EA}"
-	ProjectSection(SolutionItems) = preProject
-		docker-compose.yml = docker-compose.yml
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0FCD12AC-DBA1-4911-A19E-6534AA3CFF0D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCRUD.API", "src\ProductCRUD.API\ProductCRUD.API.csproj", "{0A274463-3E51-4469-A1C4-D87C54A1D8E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCRUD.API", "src\ProductCRUD.API\ProductCRUD.API.csproj", "{F6982110-3E10-42D5-9FF9-715BADAB9390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A274463-3E51-4469-A1C4-D87C54A1D8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A274463-3E51-4469-A1C4-D87C54A1D8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A274463-3E51-4469-A1C4-D87C54A1D8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A274463-3E51-4469-A1C4-D87C54A1D8E9}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0A274463-3E51-4469-A1C4-D87C54A1D8E9} = {CFE3137B-498C-4969-A65C-848CB22B61EA}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6982110-3E10-42D5-9FF9-715BADAB9390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6982110-3E10-42D5-9FF9-715BADAB9390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6982110-3E10-42D5-9FF9-715BADAB9390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6982110-3E10-42D5-9FF9-715BADAB9390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {74A93A67-5E18-4EB7-AE19-826C8D3F9ADC}
+	GlobalSection(NestedProjects) = preSolution
+		{F6982110-3E10-42D5-9FF9-715BADAB9390} = {0FCD12AC-DBA1-4911-A19E-6534AA3CFF0D}
 	EndGlobalSection
 EndGlobal
